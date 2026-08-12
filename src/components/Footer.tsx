@@ -34,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ onApplyClick }) => {
           <div className="footer-col">
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '16px' }}>
               <img
-                src="/ASCENDRA%20LOGO%20PDF-page-1-Photoroom.png"
+                src="/ASCENDRA%20LOGO%20PDF-page-1-Photoroom.webp"
                 alt="ASCENDRA Logo"
                 style={{ height: '84px', width: 'auto', objectFit: 'contain' }}
               />

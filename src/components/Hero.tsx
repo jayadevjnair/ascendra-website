@@ -137,7 +137,7 @@ export const Hero: React.FC<HeroProps> = ({ onApplyClick, onExploreCourses }) =>
           >
             <div className="hero-image-wrapper">
               <img 
-                src="/hero1.png" 
+                src="/hero1.webp" 
                 alt="Healthcare Students and Medical Instructors in Modern Clinical Environment"
                 className="hero-main-img"
               />

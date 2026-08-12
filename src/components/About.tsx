@@ -67,7 +67,7 @@ export const About: React.FC<AboutProps> = ({ onApplyClick }) => {
           >
             <div className="about-img-frame">
               <img
-                src="/about1.png"
+                src="/about1.webp"
                 alt="ASCENDRA Healthcare Students Training in Clinical Lab"
               />
               

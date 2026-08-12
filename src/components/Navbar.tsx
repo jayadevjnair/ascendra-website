@@ -45,7 +45,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onApplyClick }) => {
         {/* Brand Logo */}
         <a href="#home" className="brand-logo" onClick={(e) => { e.preventDefault(); handleNavClick('#home'); }}>
           <img
-            src="/ASCENDRA%20LOGO%20PDF-page-1-Photoroom.png"
+            src="/ASCENDRA%20LOGO%20PDF-page-1-Photoroom.webp"
             alt="ASCENDRA Logo"
             style={{ height: '76px', width: 'auto', objectFit: 'contain' }}
           />

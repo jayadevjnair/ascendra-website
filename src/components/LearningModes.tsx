@@ -39,7 +39,7 @@ export const LearningModes: React.FC<LearningModesProps> = ({ onApplyClick }) =>
           >
             <div className="mode-img-frame">
               <img
-                src="/offlinecampus2.png"
+                src="/offlinecampus2.webp"
                 alt="Real classroom and medical mannequin training at ASCENDRA Kottayam"
               />
               <div className="mode-tag-overlay">
@@ -95,7 +95,7 @@ export const LearningModes: React.FC<LearningModesProps> = ({ onApplyClick }) =>
           >
             <div className="mode-img-frame">
               <img
-                src="/onlineclass.png"
+                src="/onlineclass.webp"
                 alt="Student attending live online healthcare masterclass"
               />
               <div className="mode-tag-overlay">

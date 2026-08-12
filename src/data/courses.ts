@@ -44,7 +44,7 @@ export const COURSES: Course[] = [
     duration: '2 Years',
     mode: 'Classroom & Clinical',
     certificate: 'Nursing Council Approved Diploma',
-    image: '/auxilary1.png',
+    image: '/auxilary1.webp',
     tagline: 'Serve the community as a foundational pillar of the healthcare and maternal care system.',
     overview: 'Comprehensive nursing program focusing on maternal and child health, family planning, immunization, and community health services.',
     eligibility: 'Plus Two (+2) from any stream (Science/Arts/Commerce)',
