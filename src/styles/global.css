@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: var(--font-body);
-  font-size: 1.125rem; /* 18px body */
+  font-size: 1rem; /* 16px body for mobile */
   line-height: 1.7;
   color: var(--color-text-primary);
   background-color: var(--color-bg-white);
@@ -24,6 +24,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.125rem; /* 18px body for desktop */
+  }
 }
 
 .app-layout, #root {
@@ -58,21 +64,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 5.2vw, 4.5rem); /* Up to 72px desktop */
+  font-size: clamp(2rem, 5vw, 4.5rem); /* Starts at 32px on mobile, scales to 72px on desktop */
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.03em;
 }
 
 .hero-subtitle {
-  font-size: clamp(1.15rem, 1.8vw, 1.375rem); /* 22px */
+  font-size: clamp(1rem, 1.8vw, 1.375rem); /* Starts at 16px on mobile, scales to 22px on desktop */
   color: var(--color-text-secondary);
   line-height: 1.65;
   max-width: 620px;
 }
 
 .section-title {
-  font-size: clamp(2rem, 3.8vw, 2.75rem);
+  font-size: clamp(1.75rem, 3.8vw, 2.75rem); /* Starts at 28px on mobile */
   font-weight: 800;
   letter-spacing: -0.025em;
   color: var(--color-text-primary);
@@ -112,11 +118,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-description {
-  font-size: 1.125rem;
+  font-size: 1rem; /* 16px for mobile */
   color: var(--color-text-secondary);
+  line-height: 1.65;
   max-width: 680px;
   margin: 0 auto;
-  line-height: 1.65;
+}
+
+@media (min-width: 768px) {
+  .section-description {
+    font-size: 1.125rem; /* 18px for desktop */
+  }
 }
 
 .section-description-dark {

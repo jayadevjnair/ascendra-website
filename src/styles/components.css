@@ -413,10 +413,16 @@
 
 .trust-number {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 1.5rem; /* mobile */
   font-weight: 800;
   color: var(--color-secondary);
   line-height: 1.1;
+}
+
+@media (min-width: 768px) {
+  .trust-number {
+    font-size: 2rem;
+  }
 }
 
 .trust-label {
@@ -587,10 +593,16 @@
 }
 
 .feature-title {
-  font-size: 1.25rem;
+  font-size: 1.125rem; /* mobile */
   font-weight: 700;
   margin-bottom: 10px;
   color: var(--color-secondary);
+}
+
+@media (min-width: 768px) {
+  .feature-title {
+    font-size: 1.25rem;
+  }
 }
 
 .feature-desc {
@@ -695,11 +707,17 @@
 }
 
 .course-title {
-  font-size: 1.2rem;
+  font-size: 1.0625rem; /* mobile */
   font-weight: 700;
   color: var(--color-secondary);
   margin-bottom: 10px;
   line-height: 1.35;
+}
+
+@media (min-width: 768px) {
+  .course-title {
+    font-size: 1.2rem;
+  }
 }
 
 .course-desc {
@@ -784,10 +802,16 @@
 }
 
 .mode-title {
-  font-size: 1.5rem;
+  font-size: 1.25rem; /* mobile */
   font-weight: 700;
   color: var(--color-secondary);
   margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+  .mode-title {
+    font-size: 1.5rem;
+  }
 }
 
 .mode-features {
